@@ -1,6 +1,6 @@
 {
   "name": "pyright-pretty",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A pretty wrapper for pyright",
   "type": "module",
   "main": "dist/index.js",
@@ -17,6 +17,10 @@
     "kleur": "^4.1.5",
     "pyright": "^1.1.394",
     "pyright-pretty": "."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NorthIsUp/pyright-pretty"
   },
   "devDependencies": {
     "@types/node": "22.13.4",
