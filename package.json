@@ -1,11 +1,13 @@
 {
   "name": "pyright-pretty",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A pretty wrapper for pyright",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "bin": "dist/index.js",
+  "bin": {
+    "pyright-pretty": "dist/index.js"
+  },
   "files": [
     "dist"
   ],
@@ -15,8 +17,7 @@
   },
   "dependencies": {
     "kleur": "^4.1.5",
-    "pyright": "^1.1.394",
-    "pyright-pretty": "."
+    "pyright": "^1.1.394"
   },
   "repository": {
     "type": "git",
