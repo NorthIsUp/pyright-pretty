@@ -6,7 +6,7 @@ the pryright output is difficult to read, this project wraps it and shows it in 
 
 ```yaml
 - repo: https://github.com/northisup/pyright-pretty
-  rev: v0.1.0
+  rev: v0.1.3
   hooks:
   - id: pyright-pretty
 ```
@@ -15,7 +15,7 @@ if your `pyproject.toml` is not in the root of your repo, use `args` to specify 
 
 ```yaml
 - repo: https://github.com/northisup/pyright-pretty
-  rev: v0.1.0
+  rev: v0.1.3
   hooks:
   - id: pyright-pretty
     name: Python type checking [project-one]
